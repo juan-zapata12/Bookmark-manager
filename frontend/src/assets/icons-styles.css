@@ -1,0 +1,77 @@
+/* ─── Agregar al final de styles.css ────────────────────────────── */
+
+/* Íconos SVG inline en botones y títulos */
+.section-title,
+.section-title svg,
+button svg,
+a svg {
+  vertical-align: middle;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+/* Ícono de búsqueda posicionado */
+.search-icon-svg {
+  position: absolute;
+  left: 0.75rem;
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+/* Íconos en stat cards */
+.stat-icon {
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Ícono externo en links */
+.link-icon {
+  opacity: 0.6;
+  margin-left: 0.2rem;
+}
+
+.table-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+/* Botones con ícono + texto */
+.btn-primary,
+.btn-secondary,
+.btn-admin,
+.btn-logout,
+.btn-filter,
+.btn-export,
+.btn-role,
+.btn-delete-sm {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+/* Toggle password con ícono */
+.toggle-password {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+}
+
+.toggle-password:hover { color: var(--text-primary); }
+
+/* Empty state con ícono SVG */
+.empty-svg-icon {
+  color: var(--text-muted);
+  opacity: 0.5;
+}
