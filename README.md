@@ -2,15 +2,6 @@
 
 Sistema de autenticación completo con JWT, bcrypt, Zod, Vue 3 + Pinia.
 
-Backend (cd bookmark-manager/backend):
-bashnpm install
-cp .env.example .env   
-npm run dev            
-Frontend (cd bookmark-manager/frontend):
-bashnpm install
-npm run dev            
----
-
 ## 📁 Estructura del Proyecto
 
 ```
