@@ -1,13 +1,6 @@
-# 🔖 Bookmark Manager — Entrega 1
+# 🔖 Bookmark Manager 
 
 Sistema de autenticación completo con JWT, bcrypt, Zod, Vue 3 + Pinia.
-jucazago18
-12345
-
-Ejecuta lo siguiente en la línea de comandos
-npm install mongodb
-
-mongodb+srv://jucazago18:12345@cluster0.fwlcaar.mongodb.net/?appName=Cluster0
 
 Backend (cd bookmark-manager/backend):
 bashnpm install
